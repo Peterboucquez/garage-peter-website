@@ -1,0 +1,10 @@
+GARAGE PETER – NIEUWSFOTO'S 2022–2026
+
+Upload de map images/nieuws/ met alle jaar- en maandmappen naar de hoofdmap van je GitHub-repository.
+Behoud alle bestandsnamen en submappen.
+
+Deze export bevat ALLE 347 mediabestanden uit 2022–2026, niet alleen foto's die al op de nieuwe nieuwspagina staan. Dat is bewust: zo bewaren we ook originele beelden voor latere nieuwsartikelen. Sommige bestanden kunnen logo's of afbeeldingen voor andere WordPress-pagina's zijn.
+
+De website verwijst voorlopig nog naar de oude WordPress-foto-URL's. Pas nadat de bestanden op GitHub staan, kunnen we veilig de nieuwslinks aanpassen.
+
+Verwijder de originele WordPress-foto's voorlopig niet.
