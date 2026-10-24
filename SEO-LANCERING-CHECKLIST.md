@@ -21,3 +21,16 @@ Status: voorbereiding, niet live lanceren zonder controle.
 
 ## Aandachtspunt
 De huidige nieuwe HTML-pagina's hebben andere URL's dan de WordPress-pagina's. Zonder redirectplan kunnen bestaande zoekresultaten verkeer verliezen.
+
+## 24 oktober 2026 — doel: maandag 26 oktober (onder voorbehoud)
+- [x] Online afspraakmodule praktisch getest door Garage Peter.
+- [x] Nieuwsafbeeldingen met foutieve absolute paden gecorrigeerd.
+- [x] Herstellingsvoorwaarden uit april 2023 taalkundig nagekeken; eigenaar legt ze voor aan advocaat.
+- [ ] Juridisch akkoord voor privacyverklaring, herstellings- en verkoopvoorwaarden.
+- [ ] Redirectmapping voor 219 oude sitemap-URL's afronden en op YRServer inregelen; geen bestaande vindbaarheid verliezen.
+- [ ] Productiehosting, DNS, HTTPS, www/non-www en back-up bestaande WordPress-site controleren.
+- [ ] Volledige mobiele en functionele live-test na omschakeling.
+- [ ] Canonicals, robots.txt, sitemap.xml en noindex pas bij goedgekeurde livegang aanpassen.
+- [ ] Expliciete toestemming Peter voor overschakeling garagepeter.be.
+
+**Stopcriterium:** niet live schakelen als juridische teksten nog als concept zichtbaar zijn of belangrijke oude URL's zonder correcte redirect vallen.
