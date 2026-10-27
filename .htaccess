@@ -1,0 +1,23 @@
+# Garage Peter - SEO-migratie - 27 oktober 2026
+# Bevestigde 301-doorverwijzingen
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^auto\-onderhoud\-bredene/?$ /auto-onderhoud-herstellingen-bredene.html [R=301,L,NC]
+RewriteRule ^services/?$ /diensten.html [R=301,L,NC]
+RewriteRule ^over\-ons/?$ /over-ons.html [R=301,L,NC]
+RewriteRule ^contact/?$ /contact.html [R=301,L,NC]
+RewriteRule ^autoverhuur\-bredene/?$ /autoverhuur-bredene-oscar.html [R=301,L,NC]
+RewriteRule ^laatste\-nieuws/?$ /nieuws.html [R=301,L,NC]
+
+RewriteRule ^bmw\-x1\-roetfilter\-motor\-ontkalken\-bredene/?$ /nieuws/bmw-x1-roetfilter-motor-ontkalken-bredene.html [R=301,L,NC]
+RewriteRule ^motor\-ontkalken\-en\-roetfilter\-reinigen\-bij\-garage\-peter/?$ /nieuws/motor-ontkalken-en-roetfilter-reinigen-bij-garage-peter.html [R=301,L,NC]
+RewriteRule ^garage\-peter\-steunt\-blauwe\-kruis\-van\-de\-kust/?$ /nieuws/garage-peter-steunt-blauwe-kruis-van-de-kust.html [R=301,L,NC]
+RewriteRule ^wanneer\-wagen\-naar\-keuring/?$ /nieuws/wanneer-wagen-naar-keuring.html [R=301,L,NC]
+RewriteRule ^garage\-peter\-bereikt\-100\-google\-reviews/?$ /nieuws/garage-peter-bereikt-100-google-reviews.html [R=301,L,NC]
+RewriteRule ^roetfilter\-reinigen\-bredene/?$ /nieuws/roetfilter-reinigen-bredene.html [R=301,L,NC]
+RewriteRule ^diagnose\-noodloop\-dacia\-sandero\-tce90\-zonder\-foutcode/?$ /nieuws/diagnose-noodloop-dacia-sandero-tce90-zonder-foutcode.html [R=301,L,NC]
+RewriteRule ^olieverbruik\-oplossen\-motor\-ontkalking\-compressietest/?$ /nieuws/olieverbruik-oplossen-motor-ontkalking-compressietest.html [R=301,L,NC]
+</IfModule>
+
+DirectoryIndex index.html
