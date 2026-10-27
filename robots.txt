@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://garagepeter.be/sitemap.xml
