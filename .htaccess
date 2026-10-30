@@ -3,6 +3,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
+# Juridische pagina's: nette URL's naar HTML-bestanden
+RewriteRule ^privacy/?$ /privacy.html [R=301,L,NC]
+RewriteRule ^factuur-voorwaarden/?$ /factuur-voorwaarden.html [R=301,L,NC]
+RewriteRule ^factuurvoorwaarden-tweedehandswagens/?$ /factuurvoorwaarden-tweedehandswagens.html [R=301,L,NC]
+
 RewriteRule ^auto\-onderhoud\-bredene/?$ /auto-onderhoud-herstellingen-bredene.html [R=301,L,NC]
 RewriteRule ^services/?$ /diensten.html [R=301,L,NC]
 RewriteRule ^over\-ons/?$ /over-ons.html [R=301,L,NC]
