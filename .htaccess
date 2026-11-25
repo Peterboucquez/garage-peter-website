@@ -48,6 +48,20 @@ RewriteRule ^occassiewagens/sterkste-man-van-bredene-2013/?$ /nieuws/evenement-s
 RewriteRule ^sponsoring-t-breiningsrevuutje/?$ /nieuws/garage-peter-breiningsrevuutje-2023.html [R=301,L,NC]
 RewriteRule ^laatste-nieuws/(nieuws/.+\.html)$ /$1 [R=301,L,NC]
 
+
+# Aanvullende 301's voor bestaande nieuwsartikelen en oude emoji-slugs
+RewriteRule ^.*nieuw-in-ons-huuraanbod-renault-trafic-6-persoons-.*$ /nieuws/renault-trafic-zes-personen-oscar-huurwagen-2025.html [R=301,L,NC]
+RewriteRule ^.*problemen-met-de-keuring-door-te-hoge-uitstoot-wij-hebben-de-oplossing-.*$ /nieuws/motor-ontkalken-en-roetfilter-reinigen-bij-garage-peter.html [R=301,L,NC]
+RewriteRule ^.*garage-peter-breidt-uit-nu-ook-wagenverhuur/?$ /nieuws/garage-peter-start-wagenverhuur-oscar-2024.html [R=301,L,NC]
+RewriteRule ^.*nieuwe-kleine-wagen-in-verhuur-bij-garage-peter-.*$ /nieuws/nieuwe-huurwagens-opel-corsa-citroen-c3-2026.html [R=301,L,NC]
+RewriteRule ^.*een-bedankje-dat-raakt/?$ /nieuws/bedanking-klant-team-garage-peter.html [R=301,L,NC]
+RewriteRule ^.*belangrijke-mededeling-korte-rustpauze-.*$ /nieuws.html [R=301,L,NC]
+RewriteRule ^occassiewagens/sterkste-man-van-belgie-2014/?$ /evenementenarchief.html [R=301,L,NC]
+RewriteRule ^portfolio_category/citroen/?$ /tweedehandswagens-kopen-bredene.html [R=301,L,NC]
+RewriteRule ^opleiding-wagenparkverantwoordelijken-wit-geel-kruis-west-vlaanderen-bij-garage-peter/?$ /nieuws/bezoek-aan-garage-peter-2023.html [R=301,L,NC]
+RewriteRule ^nieuwe-dacia-sandero/?$ /tweedehandswagens-kopen-bredene.html [R=301,L,NC]
+RewriteRule ^roetfilter-reinigen-motor-$ /nieuws/motor-ontkalken-en-roetfilter-reinigen-bij-garage-peter.html [R=301,L,NC]
+
 </IfModule>
 
 DirectoryIndex index.html
