@@ -24,6 +24,30 @@ RewriteRule ^garage\-peter\-bereikt\-100\-google\-reviews/?$ /nieuws/garage-pete
 RewriteRule ^roetfilter\-reinigen\-bredene/?$ /nieuws/roetfilter-reinigen-bredene.html [R=301,L,NC]
 RewriteRule ^diagnose\-noodloop\-dacia\-sandero\-tce90\-zonder\-foutcode/?$ /nieuws/diagnose-noodloop-dacia-sandero-tce90-zonder-foutcode.html [R=301,L,NC]
 RewriteRule ^olieverbruik\-oplossen\-motor\-ontkalking\-compressietest/?$ /nieuws/olieverbruik-oplossen-motor-ontkalking-compressietest.html [R=301,L,NC]
+
+# Oude WordPress-URL's uit Google Search Console (november 2026)
+RewriteRule ^home/?$ / [R=301,L,NC]
+RewriteRule ^(?:tweedehandswagens-bredene|occasiewagens|occassiewagens|services/verkoop-wagens(?:-bredene)?)/?$ /tweedehandswagens-kopen-bredene.html [R=301,L,NC]
+RewriteRule ^services/keuring-van-wagens/?$ /autokeuring-voorbereiding-bredene.html [R=301,L,NC]
+RewriteRule ^depannage-wagens-bredene/?$ /depannage-autopech-bredene-campings.html [R=301,L,NC]
+RewriteRule ^banden-bredene/?$ /banden-kopen-monteren-bredene.html [R=301,L,NC]
+RewriteRule ^distributieriem-vervangen-bredene/?$ /distributieriem-vervangen-bredene.html [R=301,L,NC]
+RewriteRule ^(?:distributieriem-kapot-motor-kapot|distributieriem-zorgt-voor-kosten-en-kopzorgen-bij-citroen-ds-opel-en-peugeotbezitters)/?$ /nieuws/distributieriem-puretech-kopzorgen-2024.html [R=301,L,NC]
+RewriteRule ^peugeot-5008-geen-oliedruk-puretech-riem-probleem/?$ /nieuws/peugeot-5008-geen-oliedruk-puretech-distributieriem-2026.html [R=301,L,NC]
+RewriteRule ^waarom-de-zeef-uitkuisen-bij-een-driem-in-de-olie/?$ /nieuws/waarom-oliepompzeef-reinigen-distributieriem-olie-2025.html [R=301,L,NC]
+RewriteRule ^(?:afgekeurd-deeltjestest-roetfilter-reinigen|roetfilter-reinigen-motor-ontkalken-bredene|ontkalking-roetfilter-bredene-verstopte-roetfilter)/?$ /nieuws/motor-ontkalken-en-roetfilter-reinigen-bij-garage-peter.html [R=301,L,NC]
+RewriteRule ^motorreiniging-o3-carboncleaner-bij-garage-peter/?$ /nieuws/roetfilter-ontkalken-en-geforceerd-regenereren.html [R=301,L,NC]
+RewriteRule ^minibus-te-huur-bij-garage-peter/?$ /nieuws/renault-trafic-negenpersoons-minibus-huren-2023.html [R=301,L,NC]
+RewriteRule ^(?:jaarlijkse-vakantie-2|uitzonderlijk-gesloten)/?$ /nieuws.html [R=301,L,NC]
+RewriteRule ^(?:laatste-nieuws/page/[0-9]+|2025/06)/?$ /nieuws.html [R=301,L,NC]
+RewriteRule ^autokeuring-gemist-wat-nu/?$ /nieuws/wanneer-wagen-naar-keuring.html [R=301,L,NC]
+RewriteRule ^nieuwe-openingsuren/?$ /nieuws/nieuwe-openingsuren-garage-peter-2022.html [R=301,L,NC]
+RewriteRule ^dacia-spring-voor-natra-bredene/?$ /nieuws/dacia-spring-natrajacali-bredene-2022.html [R=301,L,NC]
+RewriteRule ^garage-peter-het-3de-dartstoernooi-3de-grote-prijs-schepen-alain-lynneel/?$ /nieuws/evenement-dartstoernooi-2024.html [R=301,L,NC]
+RewriteRule ^occassiewagens/sterkste-man-van-bredene-2013/?$ /nieuws/evenement-sterkste-man-bredene-2013.html [R=301,L,NC]
+RewriteRule ^sponsoring-t-breiningsrevuutje/?$ /nieuws/garage-peter-breiningsrevuutje-2023.html [R=301,L,NC]
+RewriteRule ^laatste-nieuws/(nieuws/.+\.html)$ /$1 [R=301,L,NC]
+
 </IfModule>
 
 DirectoryIndex index.html
